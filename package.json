@@ -1,0 +1,33 @@
+{
+  "name": "workerseeker-api",
+  "version": "0.0.1",
+  "description": "RESTful API for www.workerseeker.com",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/workerseeker/workerseeker-api.git"
+  },
+  "author": "Diego Gadens",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/workerseeker/workerseeker-api#readme",
+  "dependencies": {
+    "chance": "^1.0.4",
+    "coffee-script": "^1.12.2",
+    "lodash": "^4.17.4",
+    "mocha": "^2.5.3",
+    "mongoose": "^4.7.8",
+    "nconf": "^0.8.4",
+    "path": "^0.12.7",
+    "restify": "^4.3.0",
+    "seppuku": "^0.1.6",
+    "should": "^11.1.2",
+    "supertest": "^2.0.1"
+  }
+}
