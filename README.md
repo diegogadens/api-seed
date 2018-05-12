@@ -1,3 +1,3 @@
 # README #
 
-This is a README
+Starting point for node.js api with coffeescript
